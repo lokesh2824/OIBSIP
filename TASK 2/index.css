@@ -1,0 +1,92 @@
+/* .from{
+    width: 600px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid;
+} */
+
+.nav{
+    background-color: rgb(4, 90, 61);
+}
+
+.title{
+    margin: 10px;
+}
+
+.desc{
+    margin: 10px;
+    width: 400px;
+}
+
+#tasklist{
+    height: 235px;
+    width: 802px;
+    margin-top: -8px;
+    overflow: auto;
+}
+
+#completed{
+    height: 235px;
+    overflow: auto;    
+    margin-top: -8px;
+    width: 8020px;
+}
+
+.card{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px ;
+    margin-left: 40px;
+    
+}
+.btncd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    width: 825px;
+    height: 300px;
+    margin-top: 20px;
+}
+.left-div,
+.right-div{
+    margin: 10px;
+}
+
+.virtual{
+    position: relative;
+    padding: 10px;
+    border: 1px solid;
+    margin: 6px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 801px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.first-child{
+    position: absolute;
+    left: 38px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.last-child{
+    position: absolute;
+    left: 201px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.edit{
+    position: absolute;
+    left: 674px;
+}
+.navbar-brand{
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
